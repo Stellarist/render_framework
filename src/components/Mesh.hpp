@@ -3,12 +3,9 @@
 #include "AABB.hpp"
 #include "Component.hpp"
 #include "Node.hpp"
+#include "SubMesh.hpp"
 #include <glm/glm.hpp>
 #include <vector>
-
-// TODO
-class SubMesh;
-///
 
 class Mesh : public Component {
 public:

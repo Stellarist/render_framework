@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Component.hpp"
-#include "Transform.hpp"
+#include "components/Transform.hpp"
 #include <string>
 #include <unordered_map>
 #include <vector>

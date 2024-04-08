@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Node.hpp"
+#include "SubMesh.hpp"
 #include <algorithm>
 #include <memory>
 #include <queue>
@@ -80,13 +81,12 @@ void Scene::addChild(Node& child)
 	root->addChild(child);
 }
 
-// TODO: replace SubMesh
 auto Scene::getModel(uint32_t index) -> std::unique_ptr<Component>
 {
-	// auto meshed = std::move(components.at(typeid(SubMesh)));
+	auto meshed = std::move(components.at(typeid(SubMesh)));
 
-	// assert(index < meshed.size() && "Index out of bounds.");
-	// return std::move(meshed[index]);
+	assert(index < meshed.size() && "Index out of bounds.");
+	return std::move(meshed[index]);
 }
 
 template <typename T>
