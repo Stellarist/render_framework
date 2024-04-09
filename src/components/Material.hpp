@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Component.hpp"
+#include "base/Component.hpp"
 #include "texture.hpp"
 #include <glm/glm.hpp>
 #include <string>

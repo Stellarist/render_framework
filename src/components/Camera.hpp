@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Component.hpp"
-#include "Node.hpp"
 #include "Transform.hpp"
+#include "base/Component.hpp"
+#include "base/Node.hpp"
 #include <glm/glm.hpp>
 #include <memory>
 #include <stdexcept>

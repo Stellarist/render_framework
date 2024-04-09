@@ -1,9 +1,9 @@
 #pragma once
 
 #include "AABB.hpp"
-#include "Component.hpp"
-#include "Node.hpp"
 #include "SubMesh.hpp"
+#include "base/Component.hpp"
+#include "base/Node.hpp"
 #include <glm/glm.hpp>
 #include <vector>
 

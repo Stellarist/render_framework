@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Component.hpp"
+#include "base/Component.hpp"
 #include <string>
 #include <typeinfo>
 #include <unordered_map>

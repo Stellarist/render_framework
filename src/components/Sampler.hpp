@@ -5,7 +5,7 @@
 #include <typeinfo>
 #include <vector>
 
-#include "Component.hpp"
+#include "base/Component.hpp"
 
 // TODO: implement samplerImpl
 class SamplerImpl;

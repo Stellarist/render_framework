@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Component.hpp"
-#include "Node.hpp"
+#include "base/Component.hpp"
+#include "base/Node.hpp"
 #include <glm/glm.hpp>
 #include <glm/gtx/quaternion.hpp>
 
