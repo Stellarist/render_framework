@@ -9,7 +9,7 @@
 #include <typeindex>
 #include <vector>
 
-class Scene {
+class Scene : public Object {
 public:
 	Scene() = default;
 	Scene(const std::string& name);

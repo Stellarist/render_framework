@@ -1,9 +1,10 @@
 #pragma once
 
+#include "Object.hpp"
 #include <string>
 #include <typeindex>
 
-class Component {
+class Component : public Object {
 public:
 	Component() = default;
 	Component(const std::string& name);

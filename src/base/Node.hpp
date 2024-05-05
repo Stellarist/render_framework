@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <vector>
 
-class Node {
+class Node : public Object {
 public:
 	Node(const size_t id, const std::string& name);
 	virtual ~Node() = default;

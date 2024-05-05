@@ -1,14 +1,11 @@
 #pragma once
 
+#include "Image.hpp"
+#include "Sampler.hpp"
 #include "base/Component.hpp"
 #include <cassert>
 #include <string>
 #include <typeindex>
-
-// TODO : implment
-class Image;
-class Sampler;
-/***/
 
 class Texture : public Component {
 public:

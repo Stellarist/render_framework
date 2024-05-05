@@ -19,7 +19,7 @@ public:
 	virtual std::type_index getType() override;
 
 	virtual void update(float delta_time) = 0;
-	virtual void input_event(const InputEvent& input_event);
+	virtual void inputEvent(const InputEvent& input_event);
 	virtual void resize(uint32_t width, uint32_t height);
 };
 
@@ -43,7 +43,7 @@ std::type_index Script::getType()
 	return typeid(Script);
 }
 
-void Script::input_event(const InputEvent&)
+void Script::inputEvent(const InputEvent&)
 {}
 
 void Script::resize(uint32_t, uint32_t)
